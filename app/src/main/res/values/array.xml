@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="question_th">
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic4</item>
+        <item>@drawable/pic5</item>
+        <item>@drawable/pic6</item>
+        <item>@drawable/pic7</item>
+        <item>@drawable/pic8</item>
+        <item>@drawable/pic9</item>
+        <item>@drawable/pic10</item>
+    </integer-array>
+
+    <integer-array name="answer_th">
+        <item>@drawable/gorkai</item>
+        <item>@drawable/korkai</item>
+        <item>@drawable/korkuad</item>
+        <item>@drawable/korkwai</item>
+        <item>@drawable/korkon</item>
+        <item>@drawable/korrakung</item>
+        <item>@drawable/ngongu</item>
+        <item>@drawable/jorjarn</item>
+        <item>@drawable/chorching</item>
+        <item>@drawable/chorchang</item>
+    </integer-array>
+
+    <integer-array name="question_en">
+        <item>@drawable/word1</item>
+        <item>@drawable/word2</item>
+        <item>@drawable/word3</item>
+        <item>@drawable/word4</item>
+        <item>@drawable/word5</item>
+        <item>@drawable/word6</item>
+        <item>@drawable/word7</item>
+        <item>@drawable/word8</item>
+        <item>@drawable/word9</item>
+        <item>@drawable/word10</item>
+    </integer-array>
+
+    <integer-array name="answer_en">
+        <item>@drawable/ant</item>
+        <item>@drawable/bird</item>
+        <item>@drawable/cat</item>
+        <item>@drawable/dog</item>
+        <item>@drawable/egg</item>
+        <item>@drawable/fish</item>
+        <item>@drawable/girl</item>
+        <item>@drawable/hen</item>
+        <item>@drawable/ice_cream</item>
+        <item>@drawable/jelly</item>
+    </integer-array>
+
+    <integer-array name="btn_name_th">
+        <item>@id/btn_th_01</item>
+        <item>@id/btn_th_02</item>
+        <item>@id/btn_th_03</item>
+        <item>@id/btn_th_04</item>
+        <item>@id/btn_th_05</item>
+        <item>@id/btn_th_06</item>
+        <item>@id/btn_th_07</item>
+        <item>@id/btn_th_08</item>
+    </integer-array>
+
+    <integer-array name="btn_name_en">
+        <item>@id/btn_en_01</item>
+        <item>@id/btn_en_02</item>
+        <item>@id/btn_en_03</item>
+        <item>@id/btn_en_04</item>
+    </integer-array>
+
+</resources>
