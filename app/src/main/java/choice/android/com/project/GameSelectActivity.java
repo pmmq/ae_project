@@ -40,6 +40,7 @@ public class GameSelectActivity extends AppCompatActivity implements View.OnClic
                 break;
         }
         bundle.putSerializable(GameActivity.LANG_KEY,language);
+        intent.putExtras(bundle);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(intent);
     }

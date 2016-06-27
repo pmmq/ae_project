@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Project</string>
+    <string name="correct">ถูกต้อง</string>
+    <string name="wrong">ผิด</string>
 </resources>

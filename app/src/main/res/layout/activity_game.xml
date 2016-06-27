@@ -18,10 +18,11 @@
                 android:layout_height="wrap_content"/>
     </RelativeLayout>
     <include layout="@layout/layout_choices_th"
-            android:id="@+id/gl_choices_container_th"/>
+            android:id="@+id/ll_choices_container_th"/>
     <include layout="@layout/layout_choices_en"
-             android:id="@+id/gl_choices_container_en"/>
+             android:id="@+id/ll_choices_container_en"/>
     <ImageView
+        android:id="@+id/btn_back"
         android:layout_gravity="left"
         android:src="@drawable/bg_button_game"
         android:layout_width="match_parent"

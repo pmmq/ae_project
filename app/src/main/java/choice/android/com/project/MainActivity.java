@@ -1,6 +1,7 @@
 package choice.android.com.project;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,6 +18,10 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.soundstart);
+        mp.start();
+
         mPlayButton = (Button)findViewById(R.id.btn_play_game);
         mPlayButton.setOnClickListener(new View.OnClickListener()
         {
